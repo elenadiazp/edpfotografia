@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.fondo {
+    background-color: #181818;
+    font-family: Arial, sans-serif;
+}
+
+.enlace {
+    text-decoration: none;
+    color: white;
+    border: white 1px solid;
+    padding: 10px 20px;
+
+}
+.enlace:hover {
+    background-color:white ;
+    color: black;
+}
+
