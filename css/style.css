@@ -30,3 +30,29 @@
     font-size: 100px;
 }
 
+  .object-fit-cover {
+            object-fit: cover;
+        }
+
+
+        /* Título principal */
+
+
+/* Títulos de proyectos */
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+/* Texto descriptivo */
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.playfair-display {
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+ font-size: 3.5rem;
+  font-style: normal;
+}
