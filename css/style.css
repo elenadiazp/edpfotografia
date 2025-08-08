@@ -36,23 +36,88 @@
 
 
         /* Título principal */
+h1 {
+   font-family: "Birthstone", cursive;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 5rem;
+}
 
-
-/* Títulos de proyectos */
+/* Títulos de proyectos 
 h4 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+}*/
+h4 {
+   font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
 }
-
 /* Texto descriptivo */
 p {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 300;
     line-height: 1.6;
 }
-.playfair-display {
+.cormorant-garamond {
   font-family: "Cormorant Garamond", serif;
   font-optical-sizing: auto;
  font-size: 3.5rem;
   font-style: normal;
+}
+
+/* Footer base */
+.footer-dark {
+    background: linear-gradient(180deg, #323232 0%, #000000 100%);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Títulos */
+.footer-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.footer-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+/* Texto */
+.footer-desc {
+    color: #ccc;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+/* Links */
+.footer-links li {
+    margin-bottom: 0.5rem;
+}
+.footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.footer-links a:hover {
+    color: #fff;
+}
+
+/* Redes sociales */
+.footer-social a {
+    color: #ccc;
+    font-size: 1.4rem;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+.footer-social a:hover {
+    color: #fff;
+}
+
+/* Copyright */
+.footer-copy {
+    color: #666;
+    font-size: 0.85rem;
 }
