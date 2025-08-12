@@ -15,54 +15,54 @@
     color: white;
     border: white 1px solid;
     padding: 10px 20px;
- display: inline-block;
- margin: 10px 20px ;
+    display: inline-block;
+    margin: 10px 20px;
     transition: background-color 0.3s, color 0.3s;
 }
+
 .enlace:hover {
-    background-color:white ;
+    background-color: white;
     color: black;
 }
+
 .amatic-sc-regular {
-  font-family: "Allison", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Allison", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 100px;
 }
 
-  .object-fit-cover {
-            object-fit: cover;
-        }
+.object-fit-cover {
+    object-fit: cover;
+}
 
 
-        /* Título principal */
+/* Título principal */
 h1 {
-   font-family: "Birthstone", cursive;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Birthstone", cursive;
+    font-weight: 400;
+    font-style: normal;
     font-size: 5rem;
 }
 
-/* Títulos de proyectos 
+
 h4 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-}*/
-h4 {
-   font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
 }
+
 /* Texto descriptivo */
 p {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 300;
     line-height: 1.6;
 }
+
 .cormorant-garamond {
-  font-family: "Cormorant Garamond", serif;
-  font-optical-sizing: auto;
- font-size: 3.5rem;
-  font-style: normal;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-size: 3.5rem;
+    font-style: normal;
 }
 
 /* Footer base */
@@ -73,10 +73,12 @@ p {
 
 /* Títulos */
 .footer-title {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
+    font-family: "Birthstone", cursive;
     letter-spacing: 1px;
     margin-bottom: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
 }
 
 .footer-subtitle {
@@ -96,11 +98,13 @@ p {
 .footer-links li {
     margin-bottom: 0.5rem;
 }
+
 .footer-links a {
     color: #ccc;
     text-decoration: none;
     transition: color 0.3s ease;
 }
+
 .footer-links a:hover {
     color: #fff;
 }
@@ -112,6 +116,7 @@ p {
     margin-right: 10px;
     transition: color 0.3s ease;
 }
+
 .footer-social a:hover {
     color: #fff;
 }
@@ -120,4 +125,32 @@ p {
 .footer-copy {
     color: #666;
     font-size: 0.85rem;
+}
+
+.texto-en-la-mira {
+    background: rgba(0, 0, 0, 0.6);
+    border-left: 4px solid #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+}
+
+img {
+    border-radius: 6px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.03);
+    filter: brightness(1.05);
+}
+
+.footer-dark .row>div {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    padding-right: 1.5rem;
+}
+
+.footer-dark .row>div:last-child {
+    border-right: none;
 }
