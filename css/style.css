@@ -199,16 +199,3 @@ img:hover {
   }
 }
 
-/* Escalonamos la animación usando delay para cada hijo */
-.section .row > .col-12:nth-child(1) {
-  animation-delay: 0.1s;
-}
-.section .row > .col-12:nth-child(2) {
-  animation-delay: 0.3s;
-}
-.section .row > .col-12:nth-child(3) {
-  animation-delay: 0.5s;
-}
-.section .row > .col-12:nth-child(4) {
-  animation-delay: 0.7s;
-}
