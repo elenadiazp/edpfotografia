@@ -4,12 +4,51 @@
     box-sizing: border-box;
     color: white;
 }
-
+/*
 .fondo {
     background-color: #181818;
     font-family: Arial, sans-serif;
 }
+.fondo{
+    background-color:rgb(35, 50, 69);
+}
+*/
+.fondo-header {
+  background-image: url('../img/header.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;                 /* altura fija, no se deforma */
+  
+  padding: 20px;
+  text-align: center;
+  display: flex;                 /* centramos contenido */
+  justify-content: center;
+  align-items: center;
+  color: white;
 
+  box-shadow: 0px 4px 15px #000000;
+  overflow: hidden;              /* evita que el texto animado estire el contenedor */
+}
+
+/* SOLO el h1 se anima */
+.fondo-header h1 {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: aparecer 1.2s ease-out forwards;
+}
+
+@keyframes aparecer {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fondo{
+    background-color: rgb(18, 70, 87);
+}
 .enlace {
     text-decoration: none;
     color: white;
