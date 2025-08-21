@@ -222,3 +222,11 @@ img:hover {
         transform: translateY(0);
     }
 }
+.decoration{
+       color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.decoration:hover {
+color: white;
+}
