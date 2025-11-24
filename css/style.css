@@ -158,9 +158,22 @@ img:hover {
     line-height: 1.6;
 }
 
+.enlaceyo{
+      color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.enlaceyo:hover{
+      color: #fff;
+}
+.enlace:visited{
+     color: #ccc;
+      text-decoration: none;
+}
 /* Links */
 .footer-links li {
     margin-bottom: 0.5rem;
+    
 }
 
 .footer-links a {
